@@ -1,0 +1,250 @@
+body {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    to top,
+    rgb(240, 235, 210) 0%,
+    rgb(240, 235, 210) 50%,
+    rgb(0, 71, 27) 50%,
+    rgb(0, 71, 27) 100%
+  );
+}
+
+nav {
+  text-align: center;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  background-image: url("https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-34033.jpg?w=2000");
+  border-radius: 30px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.nav-container img {
+  height: 90px; /* Adjust the width of the image as needed */
+  width: 70px;
+  border-radius: 4px;
+  margin-right: 35px; /* Add spacing between the image and text */
+}
+
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  border-radius: 30px;
+}
+
+a:hover {
+  background-color: orange;
+  border-radius: 35px;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  height: 500px;
+}
+
+.hero-background {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://phantom-marca.unidadeditorial.es/a9045e8920697c9ed63918eb1397be02/resize/828/f/jpg/assets/multimedia/imagenes/2023/07/06/16886224701364.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.hero-content h1 {
+  color: whitesmoke;
+  font-size: 35px;
+}
+
+.column-1,
+.column-2 {
+  flex: 1;
+  max-width: 500px;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.childhood {
+  height: 180px;
+  width: 180px;
+}
+
+.rise {
+  height: 180px;
+  width: 180px;
+}
+
+p{
+  font-size: 110%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Fan-art-gallery{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.gallery{
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 25px;
+  
+}
+.gallery-row-1 img,
+.gallery-row-2 img{
+  max-width: 250px;
+  margin: 10px;
+  height: 300px;
+  border-radius: 25px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev {
+  left: 10px;
+  
+}
+
+.next{
+  right: 10px;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: red;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.column-3,
+.column-4 {
+  flex: 1;
+  max-width: 500px;
+  padding: 10px;
+}
+
+.row1 {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.footer{
+position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
